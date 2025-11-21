@@ -41,7 +41,7 @@ const Contact = () => {
       soundEffects.playNotification();
       setToast({
         open: true,
-        message: "Please fill in all fields before submitting.",
+        message: "Por favor, preencha todos os campos antes de enviar.",
         type: "error",
       });
       return;
@@ -59,7 +59,7 @@ const Contact = () => {
       setToast({
         open: true,
         message:
-          "EmailJS configuration is missing. Please check your environment variables.",
+          "A configuração do EmailJS está ausente. Verifique suas variáveis ​​de ambiente.",
         type: "error",
       });
       return;
@@ -71,9 +71,9 @@ const Contact = () => {
         templateId,
         {
           user_name: form.name,
-          my_name: "Jayant Potdar",
+          my_name: "iago bruno",
           user_email: form.email,
-          my_email: "jayantpotdar2006@gmail.com",
+          my_email: "iago.silva6969@gmail.com",
           user_message: form.message,
         },
         publicKey
@@ -84,7 +84,7 @@ const Contact = () => {
           soundEffects.playNotification();
           setToast({
             open: true,
-            message: "Thank you. I will get back to you as soon as possible.",
+            message: "Obrigado. Entrarei em contato assim que possível.",
             type: "success",
           });
           setForm({
@@ -99,7 +99,7 @@ const Contact = () => {
           soundEffects.playNotification();
           setToast({
             open: true,
-            message: "Ahh, something went wrong. Please try again.",
+            message: "Ah, algo deu errado. Por favor, tente novamente.",
             type: "error",
           });
         }
@@ -116,21 +116,21 @@ const Contact = () => {
         />
       )}
       <div className="w-full min-h-screen">
-        <h2 className="text-white text-center font-black md:text-[60px] sm:text-[50px] xs:text-[40px] text-[30px] px-4">
-          Let's Work Together
+        <h2 className="text-[#3b72da] text-center font-black md:text-[60px] sm:text-[50px] xs:text-[40px] text-[30px] px-4">
+          Vamos trabalhar juntos.
         </h2>
-        <div className="xl:mt-12 flex xl:flex-row flex-col-reverse gap-6 lg:gap-10 overflow-hidden text-white px-4 sm:px-6 lg:px-8">
+        <div className="xl:mt-12 flex xl:flex-row flex-col-reverse gap-6 lg:gap-10 overflow-hidden text-gray-600 px-4 sm:px-6 lg:px-8">
           <motion.div
             variants={slideIn("left", "tween", 0.2, 1)}
-            className="flex-[0.75] w-full xl:w-[40rem] bg-[#111522] p-4 sm:p-6 lg:p-8 rounded-2xl"
+            className="flex-[0.75] w-full xl:w-[40rem] shadow-sm bg-[#fefeff] p-4 sm:p-6 lg:p-8 rounded-2xl"
           >
             <p className={`text-[#8ec5ff] ${styles.sectionSubText}`}>
-              Get in touch
+              Entre em contato
             </p>
             <h3
               className={`${styles.sectionHeadText} text-[28px] sm:text-[32px] lg:text-[36px]`}
             >
-              Contact.
+              Contato.
             </h3>
 
             <form
@@ -141,49 +141,49 @@ const Contact = () => {
             >
               <label className="flex flex-col">
                 <span className="font-medium text-[#8ec5ff] mb-2 sm:mb-4 text-sm sm:text-base">
-                  Full name
+                  Nome
                 </span>
                 <input
                   type="text"
                   name="name"
                   value={form.name}
                   onChange={handleChange}
-                  placeholder="Your Name"
-                  className="bg-[#07080d] py-3 sm:py-4 px-4 sm:px-6 placeholder:text-[#fafafa8a] rounded-lg outline-none border-none font-medium text-sm sm:text-base w-full"
+                  placeholder="seu nome"
+                  className="bg-[#e7e7e7] py-3 sm:py-4 px-4 sm:px-6 placeholder:text-[#c0b9b98a] rounded-lg outline-none border-none font-medium text-sm sm:text-base w-full"
                 />
               </label>
               <label className="flex flex-col">
                 <span className="font-medium text-[#8ec5ff] mb-2 sm:mb-4 text-sm sm:text-base">
-                  Email Address
+                  Adicionar email
                 </span>
                 <input
                   type="email"
                   name="email"
                   value={form.email}
                   onChange={handleChange}
-                  placeholder="you@example.com"
-                  className="bg-[#07080d] py-3 sm:py-4 px-4 sm:px-6 placeholder:text-[#fafafa8a] rounded-lg outline-none border-none font-medium text-sm sm:text-base w-full"
+                  placeholder="seu.email@example.com"
+                  className="bg-[#e7e7e7] py-3 sm:py-4 px-4 sm:px-6 placeholder:text-[#c0b9b98a] rounded-lg outline-none border-none font-medium text-sm sm:text-base w-full"
                 />
               </label>
               <label className="flex flex-col">
                 <span className="font-medium text-[#8ec5ff] mb-2 sm:mb-4 text-sm sm:text-base">
-                  Your Message
+                  Sua mensagem
                 </span>
                 <textarea
                   rows={5}
                   name="message"
                   value={form.message}
                   onChange={handleChange}
-                  placeholder="Tell me about your project,"
-                  className="bg-[#07080d] py-3 sm:py-4 px-4 sm:px-6 placeholder:text-[#fafafa8a] rounded-lg outline-none border-none font-medium text-sm sm:text-base w-full resize-none"
+                  placeholder="Fale-me sobre o seu projeto."
+                  className="bg-[#e7e7e7] py-3 sm:py-4 px-4 sm:px-6 placeholder:text-[#c0b9b98a] rounded-lg outline-none border-none font-medium text-sm sm:text-base w-full resize-none"
                 />
               </label>
 
               <button
                 type="submit"
-                className="bg-[#07080d] py-3 px-6 sm:px-8 rounded-xl outline-none w-fit text-white font-bold shadow-md shadow-primary text-sm sm:text-base hover:bg-[#0a0b12] transition-colors duration-200"
+                className="bg-[#2c81f0] py-3 px-6 sm:px-8 rounded-xl outline-none w-fit text-white font-bold shadow-sm shadow-sky-300 text-sm sm:text-base hover:bg-[#5a97f1] transition-colors duration-200"
               >
-                {loading ? "Sending..." : "Send"}
+                {loading ? "Enviando..." : "Enviar"}
               </button>
             </form>
           </motion.div>

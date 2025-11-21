@@ -301,14 +301,14 @@ const SkillKeyboard = () => {
             marginTop: 34,
             textAlign: "center",
             letterSpacing: 2,
-            color: "#fff",
+            color: "#3b72da",
             textShadow: "0 2px 16px rgba(0,0,0,0.2)",
           }}
         >
-          Skills
+          Habilidades
         </h2>
         <p style={{ textAlign: "center", color: "#aaa" }}>
-          (hint: press a key)
+          (Dica: pressione uma tecla)
         </p>
         {/* Suspense fallback while loading the Spline 3D scene */}
         <Suspense fallback={<div>Loading 3D Keyboard...</div>}>

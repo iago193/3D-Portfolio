@@ -73,8 +73,8 @@ const Works = () => {
     <>
       <div>
         <motion.div variants={textVariant()}>
-          <p className={`${styles.sectionSubText} `}>My work</p>
-          <h2 className={`${styles.sectionHeadText}`}>Projects.</h2>
+          <p className={`${styles.sectionSubText}`}>Meu trabalho</p>
+          <h2 className={`${styles.sectionHeadText}`}>Projetos.</h2>
         </motion.div>
         <div className="hero-text">
           <motion.span
@@ -82,7 +82,7 @@ const Works = () => {
             className="mt-3 text-secondary text-[30px] max-w-3xl leading-[50px]"
           >
             <h1>
-              Shaping
+              Moldando
               <span className="slide pl-3">
                 <span className="wrapper">
                   {words.map((word, index) => (
@@ -109,7 +109,7 @@ const Works = () => {
                 </span>
               </span>
             </h1>
-            <h1>into Real Projects that Deliver Results</h1>
+            <h1>Em projetos reais que geram resultados.</h1>
           </motion.span>
         </div>
 
