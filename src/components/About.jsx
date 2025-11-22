@@ -19,7 +19,7 @@ const ServiceCard = ({ index, title, icon }) => (
           scale: 1,
           speed: 450,
         }}
-        className="bg-[#111522] rounded-[20px] py-5 px-12 min-h-[280px] flex justify-evenly items-center flex-col"
+        className="bg-[#EDEDFC] rounded-[20px] py-5 px-12 min-h-[280px] flex justify-evenly items-center flex-col"
       >
         <img
           src={icon}
@@ -27,7 +27,7 @@ const ServiceCard = ({ index, title, icon }) => (
           className="w-16 h-16 object-contain"
         />
 
-        <h3 className="text-white text-[20px] font-bold text-center">
+        <h3 className="text-[#3b72da] text-[20px] font-bold text-center">
           {title}
         </h3>
       </div>
@@ -39,19 +39,19 @@ const About = () => {
   return (
     <>
       <motion.div variants={textVariant()}>
-        <p className={styles.sectionSubText}>Introduction</p>
-        <h2 className={styles.sectionHeadText}>Overview.</h2>
+        <p className={styles.sectionSubText}>Introdução</p>
+        <h2 className={styles.sectionHeadText}>Visão geral.</h2>
       </motion.div>
 
       <motion.p
         variants={fadeIn("", "", 0.1, 1)}
         className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]"
       >
-        I'm a Jayant Sunil Potdar. A Full Stack Web developer with experience in
-        HTML, CSS, and JavaScript, and expertise in frameworks like React, and
-        Bootstrap. I'm a quick learner and to create efficient, scalable, and
-        user-friendly solutions that solve real-world problems. Let's work
-        together to bring our ideas to life!
+        Sou Iago Bruno, desenvolvedor Full Stack com experiência em HTML, CSS, JavaScript, TypeScript e foco em construção de aplicações modernas.
+        Trabalho com React, Tailwind CSS, Node.js, Express, Prisma e bancos como MySQL.
+        Estou sempre aprendendo novas tecnologias e aprimorando meus processos para entregar soluções eficientes, organizadas e escaláveis.
+
+        Meu objetivo é criar sistemas funcionais, bem estruturados e que realmente resolvam a necessidade do projeto.
       </motion.p>
       <button
         className="mt-10 px-6 py-3 text-white bg-gradient-to-r from-cyan-500 to-indigo-500 rounded-md shadow-md hover:bg-gradient-to-r hover:from-cyan-600 hover:to-indigo-600 focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-opacity-50"
