@@ -1,5 +1,5 @@
 import {
-  novalearn,
+  schooldesk,
   ponggame,
   portfolio,
   backend,
@@ -130,16 +130,16 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Nova-Learn",
+    name: "School-desk",
     description:
-      "NovaLearn is an AI-powered platform that creates personalized learning paths with interactive content and quizzes. Designed with a futuristic 3D UI, it makes learning immersive, efficient, and goal-driven. 🚀",
+      "SchoolDesk é uma solução completa para organização acadêmica, criada para simplificar a gestão de estudantes, turmas e boletins com uma interface limpa, dinâmica e preparada para o futuro da educação digital.",
     tags: [
       {
         name: "node",
         color: "blue-text-gradient",
       },
       {
-        name: "spline",
+        name: "react",
         color: "green-text-gradient",
       },
       {
@@ -147,16 +147,16 @@ const projects = [
         color: "pink-text-gradient",
       },
       {
-        name: "Flask",
+        name: "typeScript",
         color: "violet-text-gradient",
       },
       {
-        name: "sqlite3",
+        name: "tailwind",
         color: "orange-text-gradient",
       },
     ],
-    image: novalearn,
-    source_code_link: "https://nova-learn-jayant.vercel.app/",
+    image: schooldesk,
+    source_code_link: "https://github.com/iago193/schooldesk.git",
   },
   {
     name: "Multiplayer Pong Game",

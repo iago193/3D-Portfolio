@@ -122,7 +122,7 @@ const Contact = () => {
         <div className="xl:mt-12 flex xl:flex-row flex-col-reverse gap-6 lg:gap-10 overflow-hidden text-gray-600 px-4 sm:px-6 lg:px-8">
           <motion.div
             variants={slideIn("left", "tween", 0.2, 1)}
-            className="flex-[0.75] w-full xl:w-[40rem] bg-[#fefeff] shadow-[0_10px_40px_-10px_#0002] p-4 sm:p-6 lg:p-8 rounded-2xl"
+            className="flex-[0.75] w-full xl:w-[40rem] bg-[#fefeff] p-4 sm:p-6 lg:p-8 rounded-2xl"
           >
             <p className={`text-[#8ec5ff] ${styles.sectionSubText}`}>
               Entre em contato

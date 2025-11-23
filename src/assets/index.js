@@ -12,7 +12,7 @@ import hr from "./achievement/HR.jpg";
 import cp from "./achievement/Certiport.jpg";
 import fcc from "./achievement/free_code_camp.jpg";
 
-import novalearn from "./project/novalearn.png";
+import schooldesk from "./project/schooldesk.png";
 import ponggame from "./project/ponggame.png";
 import portfolio from "./project/portfolio.png";
 
@@ -36,7 +36,7 @@ export {
   hr,
   cp,
   fcc,
-  novalearn,
+  schooldesk,
   ideas,
   concepts,
   designs,
