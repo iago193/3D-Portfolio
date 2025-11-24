@@ -182,7 +182,7 @@ const projects = [
   {
     name: "3D Portfolio",
     description:
-      "A dynamic React JS portfolio with immersive 3D graphics and smooth animations for an engaging user experience. Includes interactive sections like About, Education, Projects, Connect, and Contact. 🎨💻",
+      "Um portfólio dinâmico em React JS com gráficos 3D imersivos e animações fluidas para uma experiência de usuário envolvente. Inclui seções interativas como Sobre, Educação, Projetos, Conectar e Contato. 🎨💻",
     tags: [
       {
         name: "react",
@@ -206,7 +206,7 @@ const projects = [
       },
     ],
     image: portfolio,
-    source_code_link: "https://jayantpotdar.vercel.app/",
+    source_code_link: "https://github.com/iago193/3D-Portfolio.git",
   },
 ];
 

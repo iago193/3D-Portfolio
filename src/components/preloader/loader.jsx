@@ -79,7 +79,7 @@ export default function Loader() {
             animate="enter"
             transition={{ delay: 1 }}
           >
-            Click or press any key to skip
+            Clique ou pressione qualquer tecla para pular
           </motion.div>
           <svg>
             <motion.path

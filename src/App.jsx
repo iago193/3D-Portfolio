@@ -21,7 +21,7 @@ const App = () => {
       <BrowserRouter>
         <div
           className="relative z-0"
-          style={{ backgroundColor: "#EDEDFC" }}
+          style={{ backgroundColor: "hsl(223, 27%, 87%)" }}
         >
           <ElasticCursor />
           <EasterEggs />
